@@ -1,0 +1,42 @@
+Solution Using Death Roll Gambling: 
+
+The death roll game determines the order of cup placement in the row to allocate the two cups of water. 
+All guests take turns rolling a die or using a random number generator with a maximum range Example (1-6 or 1-1000).
+The result of each roll becomes the upper limit for the next roll. 
+The first player to roll a 1 is eliminated but places their cup at the first position in the row, securing the first cup of water. 
+The game continues, with each eliminated player placing their cup in the next available position, until only one player remains. 
+The last player standing places their cup at the last position in the row, securing the last cup of water. 
+The host then pours water into the first and last cups. 
+At the end, the winners of the first and last cups can choose to share the water with others or be selfish and keep it for themselves. 
+This method combines randomness with clear rules, ensuring a fair distribution while maintaining the integrity of the host's pouring rules.
+
+
+Example:
+
+Participants: 4 guests: G1, G2, G3, G4.
+
+Starting the Game:
+    All 4 guests roll a die in turn, starting with a maximum range of (1-6).
+    G1 rolls a 4 out of 6, G2 rolls a 3 out of 4, G3 rolls a 2 out of 3, and G4 rolls a 1 out of 2.
+
+First Elimination:
+    G4 rolls a 1, is eliminated, and places their cup at the first position in the row securing the first cup.
+
+Continuing the Game:
+    The remaining players (G1, G2, G3) continue rolling.
+    G2 rolls a 1 next, is eliminated, and places their cup at the second position.
+    G1 and G3 keep rolling until G3 rolls a 1.
+
+Final Standing:
+    G3 is eliminated and places their cup at the third position.
+    G1 is the last player standing and places their cup at the last position securing the last cup.
+
+  
+Outcome:
+    The host pours water into G4's cup (first position) and G1's cup (last position).
+    G4 and G1 can decide to share the water with others or drink it themselves.
+
+
+
+
+
